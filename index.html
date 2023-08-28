@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='light'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awesome free  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-gray-200 lg:px-20 lg:py-8 px-5 py-6">
+        <nav class="flex justify-between items-center">
+            <h3 class="text-xl font-semibold">Hot Gadgets</h3>
+            <button class="btn bg-blue-500 text-white">Sign in</button>
+        </nav>
+        <!-- banner section  -->
+        <div class="py-32">
+            <h1 class="text-5xl font-semibold text-center">Apple Iphone 13 Pro Max</h1>
+            <p class="text-lg my-6 font-light text-[#706F6F] text-center">There are many variations of passages of Lorem Ipsum available, <br> but the majority have suffered alteration in some form, by injected humou.</p>
+            <div class="text-center">
+                <button class="btn bg-blue-500 text-white">Sign in</button>
+            </div>
+        </div>
+    </header>
+    <main class="bg-gray-100">
+        <!-- sarch section  -->
+        <div class="lg:px-20 lg:py-8 px-5 py-6 flex justify-start items-center">
+            <input type="text" placeholder="Search your phone" class="h-10 px-4  border rounded-s-xl" name="" id="sarch-input">
+            <button class=" bg-blue-500 px-7  h-10 rounded-e-xl font-semibold text-white" onclick="sarch()">Sarch</button>
+        </div>
+        <!-- all phone here  -->
+        <section id="Phone-display-container" class="lg:px-20 lg:py-8 px-5 py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        </section>
+    </main>
+    <footer class="lg:px-20 lg:py-8 px-5 py-6">
+        <div class="flex lg:justify-between flex-col lg:flex-row justify-center gap-4">
+            <div>
+                <h1 class="text-4xl">Hot Gadgets</h1>
+                <p class="text-lg text-[#706F6F]">You can definitely work.</p>
+            </div>
+            <div class="flex items-center gap-5">
+                <div class="flex items-center justify-start gap-4">
+                    <i class="text-2xl fa-brands fa-square-facebook" style="color: #005eff;"></i>
+                    <i class="text-2xl fa-brands fa-twitter" style="color: #005eff;"></i>
+                    <i class="text-2xl fa-brands fa-instagram" style="color: #e3a945;"></i>
+                </div>
+                <button class="btn bg-blue-500 text-white">Join Premium</button>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+            <div>
+                <a class="block text-[#706F6F]" href="">Product</a>
+                <a class="block text-[#706F6F]" href="">Browse jobs</a>
+                <a class="block text-[#706F6F]" href="">Remote jobs</a>
+                <a class="block text-[#706F6F]" href="">Startup jobs</a>
+                <a class="block text-[#706F6F]" href=""> Company jobs</a>
+            </div>
+            <div>
+                <a class="block text-[#706F6F]" href="">Popular</a>
+                <a class="block text-[#706F6F]" href="">UIUX Design</a>
+                <a class="block text-[#706F6F]" href="">Product Design</a>
+                <a class="block text-[#706F6F]" href="">Back-End Developer</a>
+                <a class="block text-[#706F6F]" href="">Front-End Developer</a>
+            </div>
+            <div>
+                <a class="block text-[#706F6F]" href="">Resource</a>
+                <a class="block text-[#706F6F]" href="">Faq</a>
+                <a class="block text-[#706F6F]" href="">Support</a>
+                <a class="block text-[#706F6F]" href="">Privacy Policy</a>
+                <a class="block text-[#706F6F]" href="">Terms of Service</a>
+            </div>
+            <div>
+                <a class="block text-[#706F6F]" href="">Company</a>
+                <a class="block text-[#706F6F]" href="">About Us</a>
+                <a class="block text-[#706F6F]" href="">Contact Us</a>
+                <a class="block text-[#706F6F]" href="">Career Tips</a>
+                <a class="block text-[#706F6F]" href="">Careers</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
