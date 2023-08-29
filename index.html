@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="bg-gray-200 lg:px-20 lg:py-8 px-5 py-6">
+    <header class="bg-gradient-to-r from-cyan-200 to-blue-200 lg:px-20 lg:py-8 px-5 py-6">
         <nav class="flex justify-between items-center">
             <h3 class="text-xl font-semibold">Hot Gadgets</h3>
             <button class="btn bg-blue-500 text-white">Sign in</button>
@@ -35,9 +35,18 @@
         <section id="Phone-display-container" class="lg:px-20 lg:py-8 px-5 py-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         </section>
         <section  class="lg:px-20 lg:py-8 px-5 py-6 text-center">
-            <button class="btn btn-wide  bg-blue-500 text-white hidden" onclick="showAll()" id="show-all-button">See all</button>
+            <button class="btn btn-wide  bg-blue-500 text-white hidden" onclick="seeAll()"  id="show-all-button">See all</button>
         </section>
     </main>
+
+        <!-- modal section  -->
+        <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+        <div class="modal">
+        <div class="modal-box" id="modal-details-container">
+        </div>
+        <label class="modal-backdrop" for="my_modal_7">Close</label>
+    </div>
+        
     <footer class="lg:px-20 lg:py-8 px-5 py-6">
         <div class="flex lg:justify-between flex-col lg:flex-row justify-center gap-4">
             <div>
